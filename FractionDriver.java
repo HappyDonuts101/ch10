@@ -1,20 +1,26 @@
 public class FractionDriver{
 	public static void main(String[] args){
 		Fraction f1 = new Fraction(2,5);
-		Fraction f2 = new Fraction(1,2);
-
-
+		Fraction f2 = new Fraction(1,3);
+		
+		Fraction f6 = new Fraction(100,101);
+		Fraction f7 = new Fraction (6,7);
+		
 		System.out.println(f1);                   
         System.out.println(f2);
-        
-		S
 
-		Fraction product = Fraction.mult(f1, f2);
+		Fraction product = Fraction.mult(f2, f2);
         System.out.println(product);
 
-         Fraction quotient = Fraction.vivi(f1, f2);
+        Fraction quotient = Fraction.mimi(f1, f2);
         System.out.println(quotient);
-
+        
+        Fraction quotient1 = Fraction.mimi(f6,f7);
+        System.out.println(quotient1);
+		System.out.println(Fraction.GCF(6,7));
+	
+	
+		System.out.println(Fraction.GCF(2,200));
 
         System.out.println(product.toDouble());
 		
