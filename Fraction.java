@@ -14,7 +14,7 @@ public class Fraction {
         denominator = Integer.parseInt(n.substring(slash + 1));
         if (denominator == 0) {
             denominator = 1;
-            System.out.println("Error: Denominator can't be zero");
+            System.out.println("Denominator can't be zero");
         }
     }
     public Fraction(Fraction f) {
@@ -64,7 +64,7 @@ public class Fraction {
             denominator = d;
         else {
             denominator = 1;
-            System.out.println("Error: Denominator can't be zero");
+            System.out.println(" Denominator can't be zero");
         }
     }
     public void reduce() {
