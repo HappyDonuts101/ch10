@@ -26,7 +26,7 @@ public class Fraction {
         result.reduce();
         return result;
     }
-    public static Fraction vivi(Fraction a, Fraction b) {
+    public static Fraction mimi(Fraction a, Fraction b) {
         Fraction result = new Fraction(a.numerator * b.denominator, a.denominator * b.numerator);
         result.reduce();
         return result;
