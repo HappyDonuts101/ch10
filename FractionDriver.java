@@ -12,10 +12,10 @@ public class FractionDriver{
 		Fraction product = Fraction.mult(f2, f2);
         System.out.println(product);
 
-        Fraction quotient = Fraction.vivi(f1, f2);
+        Fraction quotient = Fraction.mimi(f1, f2);
         System.out.println(quotient);
 
-        Fraction quotient1 = Fraction.vivi(f6,f7);
+        Fraction quotient1 = Fraction.mimi(f6,f7);
         System.out.println(quotient1);
 		System.out.println(Fraction.GCF(6,7));
 
