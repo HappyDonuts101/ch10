@@ -22,4 +22,7 @@ public class FractionDriver{
 		f8.reduce();
 		System.out.println(f8);
 
+
+		
+
 		}
