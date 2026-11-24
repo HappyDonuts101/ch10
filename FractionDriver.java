@@ -6,8 +6,10 @@ public class FractionDriver{
 		Fraction f6 = new Fraction(80,11);
 		Fraction f7 = new Fraction (6,7);
 
+		        System.out.println(f2);
+
+
 		System.out.println(f1);
-        System.out.println(f2);
 
 		   Fraction quotient = Fraction.mimi(f1, f2);
         System.out.println(quotient);
