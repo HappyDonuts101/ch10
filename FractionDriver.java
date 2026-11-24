@@ -14,10 +14,7 @@ public class FractionDriver{
 
 		Fraction product = Fraction.mult(f2, f2);
         System.out.println(product);
-
-     
-
-       
+      
 
 		Fraction f8 = new Fraction(67,105);
 		f8.reduce();
