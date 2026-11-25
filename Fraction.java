@@ -54,7 +54,7 @@ public class Fraction {
     public double toDouble() {
         return (double) numerator / denominator;
     }
-    // mutator mehtods
+    // mutator methods
     public void setNum(int n) {
         numerator = n;
     }
